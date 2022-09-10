@@ -14,15 +14,27 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             Color(.black)
-//                .ignoresSafeArea()
+                .ignoresSafeArea()
             VStack {
                 CircleView(color: .red)
                 CircleView(color: .yellow)
+                    .padding(EdgeInsets(top: 10, leading: 0, bottom: 10, trailing: 0))
                 CircleView(color: .green)
+                    
                 Spacer()
+                
+                Button(action: {}) {
+                    Text("Start")
+                        .foregroundColor(.white)
+                }
+                
+               
+                
             }
+            .padding()
         }
-       
+        
+      
         
     }
 }
