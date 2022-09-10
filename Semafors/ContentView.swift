@@ -25,9 +25,6 @@ struct ContentView: View {
     @State var buttonTitle = "START"
     
     var body: some View {
-        
-     
-        
         ZStack {
             Color(.black)
                 .ignoresSafeArea()
@@ -63,19 +60,13 @@ struct ContentView: View {
                         .background(Color.blue)
                         .foregroundColor(.white)
                         .overlay(
-                        RoundedRectangle(cornerRadius:  10)
-                            .stroke(Color.white, lineWidth: 5))
-            
+                            RoundedRectangle(cornerRadius:  10)
+                                .stroke(Color.white, lineWidth: 5))
+                    
                 }
-                
-               
-                
             }
             .padding()
-        }
-        
-      
-        
+        }   
     }
 }
 
