@@ -2,15 +2,28 @@
 //  ContentView.swift
 //  Semafors
 //
-//  Created by John Doe on 10/09/2022.
+//  Created by Sergejs Tiselskis on 10/09/2022.
 //
 
 import SwiftUI
 
+import SwiftUI
+
 struct ContentView: View {
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            Color(.black)
+//                .ignoresSafeArea()
+            VStack {
+                CircleView(color: .red)
+                CircleView(color: .yellow)
+                CircleView(color: .green)
+                Spacer()
+            }
+        }
+       
+        
     }
 }
 

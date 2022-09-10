@@ -11,6 +11,8 @@
 		7F0F3D5928CC3AF4006B1F2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0F3D5828CC3AF4006B1F2F /* ContentView.swift */; };
 		7F0F3D5B28CC3AF5006B1F2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F0F3D5A28CC3AF5006B1F2F /* Assets.xcassets */; };
 		7F0F3D5E28CC3AF5006B1F2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F0F3D5D28CC3AF5006B1F2F /* Preview Assets.xcassets */; };
+		7F0F3D6528CC4F4E006B1F2F /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0F3D6428CC4F4E006B1F2F /* CircleView.swift */; };
+		7F0F3D6728CC5067006B1F2F /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0F3D6628CC5067006B1F2F /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		7F0F3D5828CC3AF4006B1F2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7F0F3D5A28CC3AF5006B1F2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F0F3D5D28CC3AF5006B1F2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F0F3D6428CC4F4E006B1F2F /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		7F0F3D6628CC5067006B1F2F /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				7F0F3D5628CC3AF4006B1F2F /* SemaforsApp.swift */,
+				7F0F3D6428CC4F4E006B1F2F /* CircleView.swift */,
 				7F0F3D5828CC3AF4006B1F2F /* ContentView.swift */,
+				7F0F3D6628CC5067006B1F2F /* ButtonView.swift */,
 				7F0F3D5A28CC3AF5006B1F2F /* Assets.xcassets */,
 				7F0F3D5C28CC3AF5006B1F2F /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F0F3D6528CC4F4E006B1F2F /* CircleView.swift in Sources */,
 				7F0F3D5928CC3AF4006B1F2F /* ContentView.swift in Sources */,
+				7F0F3D6728CC5067006B1F2F /* ButtonView.swift in Sources */,
 				7F0F3D5728CC3AF4006B1F2F /* SemaforsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
